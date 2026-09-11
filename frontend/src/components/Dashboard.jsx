@@ -59,9 +59,6 @@ export default function Dashboard() {
             <div className="brand-sub">Data Visualization Dashboard</div>
           </div>
         </div>
-        <div className="status">
-          <Database size={16} /> MongoDB-backed
-        </div>
       </header>
 
       <section className="hero">
@@ -88,9 +85,10 @@ export default function Dashboard() {
           <Charts data={data} />
         </>
       )}
-
-      <footer>
-        Built from the provided JSON only • No external data added
+<br>
+</br>
+      <footer className="brand-name">
+       Built By-Avanish Kumar Gupta 
       </footer>
     </main>
   );
